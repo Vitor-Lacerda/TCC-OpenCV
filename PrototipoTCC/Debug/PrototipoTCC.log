@@ -1,0 +1,48 @@
+﻿Build started 14/07/2016 16:24:17.
+     1>Project "C:\Users\Avell G1711 NEW\Desktop\Monografia\PrototipoTCC\PrototipoTCC\PrototipoTCC.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt Main.cpp /clr:nostdlib 
+         Main.cpp
+     1>Main.cpp(38): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Main.cpp(41): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Main.cpp(44): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Main.cpp(47): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Main.cpp(66): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(66): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(70): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(70): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(74): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(74): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(78): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(78): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(104): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(104): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(109): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(109): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(113): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(113): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(117): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(117): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(166): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(166): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(170): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(170): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(174): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(174): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(178): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(178): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Avell G1711 NEW\Desktop\Monografia\PrototipoTCC\Debug\PrototipoTCC.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc10\lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_nonfree248d.lib opencv_objdetect248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_videostab248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PrototipoTCC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Avell G1711 NEW\Desktop\Monografia\PrototipoTCC\Debug\PrototipoTCC.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Main.obj
+         Debug\SegmentadorVagas.obj
+         Debug\VerificadorVagas.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>opencv_ts248d.lib(ts_gtest.obj) : warning LNK4099: PDB 'opencv_ts248d.pdb' was not found with 'opencv_ts248d.lib(ts_gtest.obj)' or at 'C:\Users\Avell G1711 NEW\Desktop\Monografia\PrototipoTCC\Debug\opencv_ts248d.pdb'; linking object as if no debug info
+     1>opencv_ts248d.lib(ts_perf.obj) : warning LNK4099: PDB 'opencv_ts248d.pdb' was not found with 'opencv_ts248d.lib(ts_perf.obj)' or at 'C:\Users\Avell G1711 NEW\Desktop\Monografia\PrototipoTCC\Debug\opencv_ts248d.pdb'; linking object as if no debug info
+         PrototipoTCC.vcxproj -> C:\Users\Avell G1711 NEW\Desktop\Monografia\PrototipoTCC\Debug\PrototipoTCC.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Avell G1711 NEW\Desktop\Monografia\PrototipoTCC\Debug\PrototipoTCC.exe;#1" /manifest Debug\PrototipoTCC.exe.intermediate.manifest
+     1>Done Building Project "C:\Users\Avell G1711 NEW\Desktop\Monografia\PrototipoTCC\PrototipoTCC\PrototipoTCC.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.82
